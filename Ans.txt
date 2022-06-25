@@ -1,0 +1,32 @@
+Q1=> Give an example where call apply bind is. required?
+Ans=> The call() and apply() are very similar methods. They both execute the bound function on the object immediately. 
+      The bind() method does not execute the function right away. Instead, it creates and returns a bound function that can be executed later.
+
+Q2=> What is the difference between readFile and readFileSync?
+Ans=> readFileSync() is synchronous and blocks execution until finished. These return their results as return values. readFile() are asynchronous 
+      and return immediately while they function in the background.
+
+Q3=> What does process in node.js mean?
+Ans=> Node. js provides the facility to get process information such as process id, architecture, platform, version, release, uptime, upu usage etc   
+
+Q4=> Explain what node.js is?
+Ans=> Node. js (Node) is an open source development platform for executing JavaScript code server-side.
+
+Q5=> what is the difference of js from browser to js on node.js
+Ans=> Unlike the browser where Javascript is sandboxed for your safety, node. js has full access to the system like any other native application.
+
+Q6=> Write three different ways to reverse a string in Javascript? a. using inbuilt method, b. iteratively, c. recursively.
+Ans=> inbuilt -> var str = "Raghav"
+                 var res = str.split().reverse().join("")
+      iteratively -> var bag=""
+
+                for(var i = str.length-1 ; i>=0 ; i--){
+                  bag+=str[i]
+                 }
+                console.log(bag)
+
+Q7=> what is shallow equal?
+Ans=> A function for performing a shallow comparison between two objects or arrays. Two values have shallow equality when all of their members are strictly equal to the corresponding member of the other.                
+
+
+
